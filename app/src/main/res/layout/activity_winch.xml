@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+>
+
+            <TextView
+                android:id="@+id/textWireDia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/wire_dia_text"
+                android:textSize="18sp"
+ />
+
+            <EditText
+                android:id="@+id/editWireDia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textWireLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/wire_length_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editWireLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textDrumDia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/drum_dia_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editDrumDia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textLayNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/lay_number_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editLayNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textWireSpeedFL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/wire_speed_fl_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editWireSpeedFL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textPullForceFL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/pull_force_fl_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editPullForceFL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/btnCalc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/calc_btn_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultFullDrumDia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="@string/full_drum_dia_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultDrumLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="@string/drum_length_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultPullForceLL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="@string/pull_force_ll_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultEffectiveForce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="4"
+                android:text="@string/effective_force_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultWireSpeedLL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="@string/wire_speed_ll_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultMechPow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="@string/mech_pow_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultTorque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="@string/torque_text"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+

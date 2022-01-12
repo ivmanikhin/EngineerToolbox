@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+>
+
+            <TextView
+                android:id="@+id/textHeatPow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/heat_pow_text"
+                android:textSize="18sp"
+ />
+
+            <EditText
+                android:id="@+id/editHeatPow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textInTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/in_temp_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editInTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textOutTemp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/out_temp_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editOutTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+
+            <Button
+                android:id="@+id/btnCalc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/calc_btn_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultWRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="@string/w_rate_text"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+

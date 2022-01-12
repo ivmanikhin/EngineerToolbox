@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+>
+
+            <TextView
+                android:id="@+id/textPisD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Диаметр поршня (D), мм:"
+                android:textSize="18sp"
+ />
+
+            <EditText
+                android:id="@+id/editPisD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textShfD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Диаметр штока (d), мм:"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editShfD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textPisS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Ход поршня (S), мм:"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editPisS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textPres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Давление в системе (P), Бар:"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editPres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Расход (Q), л/мин:"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="4"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/btnCalc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/calc_btn_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultPushF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="Толкающее усилие"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultPullF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="Тянущее усилие"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultPushT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="Время выдвижения"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultPullT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="Время втягивания"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultPow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="3"
+                android:text="Мощность"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
